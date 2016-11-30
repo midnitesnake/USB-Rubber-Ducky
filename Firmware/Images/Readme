@@ -15,6 +15,10 @@ inject.bin - default; ducky will always run this on insertion into a computer,
 Enable NUMLOCK (inject2.bin) or enable CAPSLOCK (inject3.bin)
 Then push the reset switch on the naked duck, to trigger the 2nd/3rd payload.
 
+- m_duck_v2.hex
+Same as m_duck.hex but no longer have to press the GPIO button
+Inject4.bin = Scroll_Lock <- New Trigger Key
+
 - USB_v2.hex | duck_v2.hex:
 Idem as usb.hex and duck.hex but VID and PID control is now easier 
 -> create vidpid.bin on the root of the sdcard
