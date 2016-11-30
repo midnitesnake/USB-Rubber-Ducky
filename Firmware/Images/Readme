@@ -1,11 +1,21 @@
 Here is a list of all firmware available for the ducky-key.
 
-- c_duck_v2.1.hex             : Allow the device to work as both a HID and standard storage device at the same time. 
-- usb.hex                     : FAT Duck.
-- duck.hex                    : Original firmware.
-- m_duck.hex                  : Multi-payloads ->  inject.bin - default; ducky will always run this on insertion into a computer,
-                                Enable NUMLOCK (inject2.bin) or enable CAPSLOCK (inject3.bin)
-                                Then push the reset switch on the naked duck, to trigger the 2nd/3rd payload.
-- USB_v2.hex | duck_v2.hex    : Idem as usb.hex and duck.hex but VID and PID control is now easier 
-                                -> create vidpid.bin on the root of the sdcard
-                                Use a hexeditor to write the first 2x bytes for the VID, followed by another 2x bytes for the PID
+- c_duck_v2.1.hex:
+Allow the device to work as both a HID and standard storage device at the same time. 
+
+- usb.hex:
+FAT Duck.
+
+- duck.hex:
+Original firmware.
+
+- m_duck.hex:
+Multi-payloads
+inject.bin - default; ducky will always run this on insertion into a computer,
+Enable NUMLOCK (inject2.bin) or enable CAPSLOCK (inject3.bin)
+Then push the reset switch on the naked duck, to trigger the 2nd/3rd payload.
+
+- USB_v2.hex | duck_v2.hex:
+Idem as usb.hex and duck.hex but VID and PID control is now easier 
+-> create vidpid.bin on the root of the sdcard
+Use a hexeditor to write the first 2x bytes for the VID, followed by another 2x bytes for the PID
