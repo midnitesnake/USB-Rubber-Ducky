@@ -1,3 +1,5 @@
 Here is a list of all firmware available for the ducky-key.
 
 - c_duck_v2.1.hex : Allow the device to work as both a HID and standard storage device at the same time. 
+- usb.hex         : FAT Duck.
+- duck_v2.hex     : Original firmware.
