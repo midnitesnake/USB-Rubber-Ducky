@@ -28,3 +28,6 @@ Inject4.bin = Scroll_Lock <- New Trigger Key
 Idem as usb.hex and duck.hex but VID and PID control is now easier 
 -> create vidpid.bin on the root of the sdcard
 Use a hexeditor to write the first 2x bytes for the VID, followed by another 2x bytes for the PID
+
+- USB_Spammer_v1.0.hex:
+Firmware which replays about once every 30 seconds, with a semi random number added to the total time
